@@ -11,8 +11,8 @@ git clone https://github.com/raspberrypi/tools.git
 
 Download kernel sources and switch to rt branch:
 ```
-git clone -b rpi-3.18.9-rt5 https://github.com/erlerobot/linux-rt-rpi.git
-cd linux-rt-rpi
+git clone -b rpi-3.18.9-rt5 --single-branch https://github.com/erlerobot/linux.git
+cd linux
 ```
 
 Export the following variables to specify cross-compilation options:
